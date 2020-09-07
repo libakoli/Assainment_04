@@ -1,0 +1,550 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* global css file here */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Quicksand', sans-serif;
+    color: #1c1e2e;
+}
+
+p, input, span, button {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* header part css here */
+.header {
+    width: 100%;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.logo span {
+    font-size: 25px;
+    margin-left: 8px;
+    font-weight: 600;
+    vertical-align: middle;
+
+}
+
+/* banner section css */
+.banner {
+    width: 100%;
+    display: flow-root;
+    margin-bottom: 70px;
+}
+
+.banner-ifo {
+    width: 100%;
+    float: left;
+}
+
+.banner-left {
+    width: 60%;
+    float: left;
+    padding: 44px 0px;
+}
+
+.banner-right {
+    width: 40%;
+    float: right;
+}
+
+.left-content {
+    padding-right: 100px;
+    padding-top: 14px;
+}
+
+.left-content h1 {
+    font-size: 40px;
+}
+
+.left-content p {
+    font-size: 20px;
+    padding: 20px 0px;
+    line-height: 1.5;
+    color: #4c527d;
+}
+
+.banner-button {
+    margin: 15px 0px;
+}
+
+.left-content .banner-button button{
+    padding: 15px 35px;;
+    border-radius: 32px;
+    outline: none;
+    border: 2px solid #ed6524;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.left-content .banner-button .left-btn {
+    background: #ed6524;
+    color: white;
+}
+
+.left-content .banner-button .left-btn:hover {
+    cursor: pointer;
+
+}
+
+.left-content .banner-button .right-btn {
+    background: transparent;
+    color: #ed6524;
+    margin-left: 15px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.left-content .banner-button .right-btn:hover {
+    background: #ed6524;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+/* comment section css */
+.comment{
+    margin: 40px 50px 0 0;
+}
+.comment-box{
+    width: 100%;
+    background: #f6f8fc;
+    padding: 20px 30px;
+    border-left: 4px solid #ed6524;
+    position: relative;
+    display: flow-root;
+}
+.comment-box p{
+    font-size: 16px;
+    font-style: italic;
+}
+.box-icon{
+    width: 15px;
+    height: 15px;
+    background: #f6f8fc;
+    position: absolute;
+    bottom: -8px;
+    transform: rotate(45deg);
+}
+.comment-user{
+    width: 100%;
+    float: left;
+    margin: 20px 0 0 20px;
+}
+.user-left{
+    width: 12%;
+    float: left;
+}
+.user-right{
+    width: 80%;
+    float: right;
+}
+.user-right .user-desc p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 25px;
+}
+/* banner right part css */
+.right-content{
+    position: relative;
+}
+.book-circle{
+    width: 120px;
+    height: 120px;
+    background: #5cb377;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    right: 0;
+}
+.book-circle h3{
+    text-align: center;
+    margin-top: 31px;
+    color: #fff;
+    font-size: 20px;
+}
+.book-link {
+    text-align: center;
+}
+.book-link a{
+    text-decoration: underline;
+    color: #1c1e2e;
+     font-size: 20px;
+}
+/* service section css here */
+.service{
+    width: 100%;
+    display: flow-root;
+    background: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+    background-repeat: repeat-x;
+    padding: 70px 0;
+}
+.service-title, .book-title{
+    text-align: center;
+}
+.service-title h1, .book-title h1{
+    font-size: 44px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.service-title p, .book-title p{
+    margin: 24px 158px;
+    font-size: 22px;
+    color: #4c527d;
+}
+.service-gallery{
+    width: 100%;
+    margin-top: 40px;
+    float: left;
+}
+.item{
+    width: 33%;
+    float: left;
+}
+.item-desc{
+    text-align: center;
+    padding: 40px;
+}
+.item-desc i{
+    font-size: 60px;
+    color: #ed6524;
+}
+.item-desc h3{
+    margin: 20px 0;
+}
+.item-desc p, .body-desc p{
+    line-height: 1.5;
+    color: #4c527d;
+}
+/* include section part css */
+.include{
+    width: 100%;
+    display: flow-root;
+    padding: 30px 0;
+    text-align: center;
+}
+.include-title h1, {
+    font-size: 44px;
+}
+.include-details{
+    width: 100%;
+    float: left;
+}
+.include-left{
+    width: 50%;
+    float: left;
+    margin-left: 50px;
+
+}
+.include-right{
+    width: 40%;
+    float: left;
+    text-align: left;
+
+}
+.include-img{
+    padding: 75px;
+    margin-left: 50px;
+}
+.include-list{
+    padding: 80px;
+}
+.include-list  ul li{
+    color: #4c527d;
+    font-size: 20px;
+    line-height: 2;
+}
+.include-list  ul li i{
+    margin-right: 20px;
+    color: #5cb377;;
+}
+.include-list .button{
+    margin: 35px 0;
+    margin-left: 40px;
+}
+.include-list button{
+    padding: 15px 40px;
+    border-radius: 32px;
+    outline: none;
+    border: 2px solid #ed6524;
+    background: #ed6524;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* software-info part css */
+.book-software{
+    width: 100%;
+    display: flow-root;
+    padding: 30px 0;
+}
+.software-ifo {
+    width: 63%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.icon{
+    margin-right: 15px;
+    float: left;
+    color: #5cb377;
+    font-size: 20px;
+}
+
+.info-body {
+    width: 85%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.body-desc {
+    width: 76%;
+    margin: auto;
+}
+.body-desc h4{
+    margin-bottom: 10px;
+}
+.body-desc p{
+    line-height: 1.7;
+}
+/* sign up section css */
+.sign-up{
+    width: 100%;
+    display: flow-root;
+    padding: 30px 0;
+}
+.preview-details{
+    width: 70%;
+    background: #f6f8fc;
+    height: 180px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+.sign-title h1{
+   color: #1c1e2e;
+   font-size: 35px;
+   margin-bottom: 20px;
+   text-transform: capitalize;
+}
+.sign-title p{
+    text-align: center;
+    font-size: 15px;
+    color: #4c527d;
+    font-size: 18px;
+}
+.sign-title form{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+.sign-title input, button{
+    padding: 15px 35px;
+    font-size: 20px;
+    background: #ed6524;
+    border: 1px solid gainsboro;
+    color: white;
+}
+.sign-title .area{
+    width: 320px;
+    background: #fff;
+
+}
+.input-btn {
+    background: #ed6524;
+    color: white;
+}
+
+.input-btn:hover {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+}
+/*  readers review section css */
+.review{
+    width: 100%;
+    display: flow-root;
+    padding: 30px 0;
+}
+.review-box{
+    width: 100%;
+
+}
+.readers-saying{
+    width: 100%;
+    display: flow-root;
+    margin: 50px auto;
+}
+.review-title{
+    text-align: center;
+    padding: 20px 0;
+}
+.readers-box{
+    width: 30%;
+    padding: 30px 6px;
+    background: #f6f8fc;
+    float: left;
+    position: relative;
+    margin-left: 25px;
+}
+.quote-icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #f5a782;
+    top: -20px;
+    left: 160px;
+    text-align: center;
+    border-radius: 50%;
+}
+.quote-icon i{
+    color: #fff;
+    padding-top: 10px;
+}
+.readers-quote{
+    padding: 0 20px 20px;
+    color: #4c527d;
+    line-height: 1.5;
+    font-style: italic;
+}
+.readers-img{
+    width: 15%;
+    float: left;
+    padding: 0 25px;
+}
+.readers-info{
+    color: #4c527d;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.part-two-readers{
+    width: 100%;
+    margin-left: 155px;
+    display: flow-root;
+}
+/* readers button css */
+.readers-button{
+    text-align: center;
+    padding: 30px 0;
+}
+.readers-button button{
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+/* author section css */
+.author{
+    width: 100%;
+    display: flow-root;
+    padding: 70px 0;
+    background: #ed6524;
+}
+.author-info{
+        
+}
+.author-title h1{
+    text-align: center;
+    margin: 40px 0;
+    color: #fff;
+    font-size: 40px;
+}
+.author-img{
+    width: 15%;
+    margin: 0 auto;
+}
+.author-text{
+    width: 67%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+.author-text p{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+.author-text a{
+    text-decoration: underline;
+    color: #fff;
+    font-size: 600;
+}
+
+.icon-title h2{
+    text-align: center;
+    color: #fff;
+    margin: 15px 0;
+}
+.social-icon{
+
+    text-align: center;
+    color: #fff;
+}
+.social-icon ul{
+
+}
+.social-icon ul li {
+    display: inline-block;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 50%;
+}
+.social-icon ul li:hover{
+    background: rgba(0,0,0,0.15);
+}
+
+.social-icon ul li i {
+    padding-top: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+/* footer section css */
+.footer{
+   background: #f6f8fc;
+   text-align: center;
+   padding: 70px 0;
+   color: #4c527d;
+}
+.footer i{
+    color: #ed6524;
+}
+.footer p{
+    font-size: 14px;
+}
+.footer a{
+   color: black;
+   text-decoration: underline;
+}
+.footer a:hover{
+    color: #ed6524;
+}
